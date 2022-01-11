@@ -13,7 +13,7 @@ public class DemoController {
 
 	@GetMapping
 	public ResponseEntity<String> myDemo() {
-		return ResponseEntity.ok("Hi I am here");
+		return ResponseEntity.ok("Hi I am here to check--- IBM AUTODEPLOYMENT IS CONTINUING...");
 	}
 
 	@RequestMapping("demo/{message}")
